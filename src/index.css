@@ -1,0 +1,101 @@
+:root {
+    --body-background: #23252c;
+    --card-background: #1a1b21;
+    --footer-background: #161619;
+}
+
+body {
+    padding: 20px;
+    background-color: var(--body-background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.--main {
+    border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--card-background);
+    margin: auto;
+    max-width: 400px;
+}
+
+.--profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.--profile>img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    max-width: 400px;
+}
+
+.--profile>h1 {
+    padding-top: 15px;
+}
+
+.--profile>h2 {
+    color: #e5b591;
+    font-size: 17px;
+}
+
+.--profile>h1,
+.--profile>h2 {
+    margin: 5px;
+}
+
+.--content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.--emailButton {
+    background-color: #f5bde6;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.--emailButton:hover {
+    cursor: pointer;
+    background-color: #b88cac;
+}
+
+.--emailButton>img {
+    width: 30px;
+}
+
+.--about,
+.--interests {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.--footer {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 60px;
+    margin: auto;
+    background-color: var(--footer-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.--footer>a {
+    margin: auto;
+}
+
+.--footer>a>img {
+    width: 60px;
+}
